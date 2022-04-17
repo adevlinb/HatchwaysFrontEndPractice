@@ -1,0 +1,17 @@
+.iconDiv {
+  height: 20vh;
+  width: 20vh;
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+
+.weatherData {
+  display: flex;
+  flex-direction: column;
+}
+
+.weatherTemps {
+  display: flex;
+  align-items: center;
+  
+}
