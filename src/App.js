@@ -14,10 +14,10 @@ export default function App() {
     let today = new Date();
     // let dayDate = today.substring(0,3);
 
-    console.log(days[today.getDay() - 1], "hi")
-        days.forEach(function(day, ind){
-          if(day === "Sat") console.log(ind);
-        })
+    // console.log(days[today.getDay() - 1], "hi")
+    //     days.forEach(function(day, ind){
+    //       if(day === "Sat") console.log(ind);
+    //     })
       console.log(today)
       console.log("hello")
       fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${key}&units=imperial`)
